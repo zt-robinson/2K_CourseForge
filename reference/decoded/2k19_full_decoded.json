@@ -1,0 +1,227 @@
+{
+  "useV4Height": false,
+  "useWaypointHeight": false,
+  "useSrgbBrushes": false,
+  "useOldFairwayEdges": false,
+  "useV19DetailPlacement": false,
+  "useV20ClusterRotation": false,
+  "name": "2k19_Test1_Boreal",
+  "seed": 17777846,
+  "greenNoise": {
+    "period": 30.0,
+    "scale": 0.15,
+    "persistence": 0.5,
+    "octaves": 2
+  },
+  "fairwayNoise": {
+    "period": 260.0,
+    "scale": 1.5,
+    "persistence": 0.5,
+    "octaves": 2
+  },
+  "roughNoise": {
+    "period": 50.0,
+    "scale": 1.0,
+    "persistence": 0.5,
+    "octaves": 3
+  },
+  "unplayableNoise": {
+    "period": 100.0,
+    "scale": 1.0,
+    "persistence": 0.5,
+    "octaves": 4
+  },
+  "theme": 5,
+  "backdrop": 0,
+  "weather": 0,
+  "weather2": {
+    "cloudiness": 0.6,
+    "cloudHeight": 0.99,
+    "cloudThickness": 0.38,
+    "cloudSharpness": 0.17,
+    "cloudSize": 0.24,
+    "rain": false,
+    "highCloudHeight": 0.2,
+    "highCloudThickness": 0.25,
+    "haze": 0.15,
+    "fogCeiling": 0.21,
+    "fogDensity": 0.0
+  },
+  "cartPathTexture": 0,
+  "surfaces": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "roughRadius": 15.0,
+  "heavyRoughRadius": 15.0,
+  "roughTerrainFalloff": 4.0,
+  "roughEdge": {
+    "period": 150.0,
+    "scale": 0.75
+  },
+  "fairwayRadius": 0.0,
+  "fairwayStart": 75.0,
+  "fairwayEnd": 0.0,
+  "fairwayEdge": {
+    "period": 100.0,
+    "scale": 0.0
+  },
+  "fairwayEdge2": {
+    "period": 200.0,
+    "scale": 10.0,
+    "persistence": 0.5,
+    "octaves": 3
+  },
+  "greenRadius": 0.0,
+  "greenPoints": 2,
+  "greenVariance": 1.0,
+  "greenEdge": {
+    "period": 100.0,
+    "scale": 0.0
+  },
+  "teeRadius": 10.0,
+  "teeHeight": 0.0,
+  "teeTexture": 0,
+  "terrainFirmness": -1.0,
+  "greenSpeed": -1.0,
+  "greenFirmness": -1.0,
+  "fairwaySpeed": -1.0,
+  "fairwayFirmness": -1.0,
+  "roughSpeed": -1.0,
+  "roughFirmness": -1.0,
+  "heavyRoughSpeed": -1.0,
+  "heavyRoughFirmness": -1.0,
+  "bunkerSpeed": -1.0,
+  "bunkerFirmness": -1.0,
+  "flagSet": 1,
+  "teeType": 0,
+  "teeColour": 0,
+  "teeColours": [
+    4,
+    0,
+    3,
+    2,
+    1
+  ],
+  "showFurniture": true,
+  "holeName": "",
+  "fairwayNoiseScale": 0.8,
+  "greenFringeRadius": -1.0,
+  "GreenMowTiling": 0.7,
+  "GreenMowIntensity": -1.0,
+  "FairwayMowTiling": 0.05,
+  "FairwayMowIntensity": -1.0,
+  "treeOptions": {
+    "density": 0.0,
+    "noise": {
+      "period": 100.0,
+      "scale": 0.5
+    },
+    "height": {
+      "mean": 1.0,
+      "sigma": 0.1
+    },
+    "width": {
+      "mean": 1.0,
+      "sigma": 0.1
+    }
+  },
+  "detailDensity": 0.0,
+  "rockDensity": 0.0,
+  "grassDensity": 1.0,
+  "plantDensity": 0.0,
+  "grassNoise": {
+    "period": 10.0,
+    "scale": 0.5
+  },
+  "hazardVariance": {
+    "period": 50.0,
+    "scale": 0.5
+  },
+  "hazardThreshold": 0.5,
+  "hazardRadius": 6.0,
+  "hazardDepth": 1.5,
+  "hazardDensity": 1300.0,
+  "hazardGreen": 3.0,
+  "hazardFairway": 0.5,
+  "hazardFairwayPeriod": 250.0,
+  "hazardGreenCount": 0.0,
+  "hazardFairwayCount": 0.0,
+  "hazardEdge": {
+    "period": 8.0,
+    "scale": 0.4
+  },
+  "flattenFairways": true,
+  "flattenGreens": true,
+  "terrainSeed": 976437360,
+  "terrainNoise": {
+    "period": 500.0,
+    "scale": 1.0,
+    "persistence": 0.5,
+    "octaves": 3
+  },
+  "perturbationNoise": {
+    "period": 500.0,
+    "scale": 50.0,
+    "persistence": 0.5,
+    "octaves": 3
+  },
+  "waterLevel": 0.0,
+  "waterAmount": 0.15,
+  "hillsAmount": 15.0,
+  "hillsHeight": 0.0,
+  "sunOrientation": 119.0,
+  "sunInclination": 43.0,
+  "timeOfDay": 0.5,
+  "courseSeed": 249396204,
+  "holeCount": 0,
+  "par3Count": 0,
+  "par5Count": 0,
+  "holeSeparation": 4.0,
+  "waypointHeight": 0.0,
+  "minimumHoleLength": 100.0,
+  "maximumHoleLength": 525.0,
+  "courseIterations": 5000,
+  "minimumDoglegPositon": 0.5,
+  "maximumDoglegPosition": 0.8,
+  "maximumDoglegAngle": 0.25,
+  "holes": [],
+  "userLayers": {
+    "deletedHazards": [],
+    "newHazards": [],
+    "objects": [],
+    "clearTrees": [],
+    "addTrees": [],
+    "treeDensity": [],
+    "hazards": [],
+    "terrainHeight": [],
+    "height": [],
+    "trees": [],
+    "green": [],
+    "surfaces": [],
+    "outOfBounds": [],
+    "crowdLocations": [],
+    "water": []
+  },
+  "cartPaths": [],
+  "surfaceSplines": [],
+  "distanceMarkers": [],
+  "placedObjects2": [],
+  "placed3dObjects": [],
+  "placedObjects": [],
+  "placedObjectCluster": [],
+  "timeStamp": 1770574722153,
+  "_id": "offlineSavey01i1dl3qhb1",
+  "version": 21,
+  "type": "course",
+  "author": "s76561198080468808",
+  "treeDensity": {},
+  "par4Count": 0
+}
