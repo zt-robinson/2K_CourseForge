@@ -10,6 +10,7 @@ venv/
 
 # Output files
 output/
+external/
 
 # IDE
 .vscode/

@@ -5,7 +5,6 @@ CourseForge is a reverse-engineering and tooling project for reading, modifying,
 The project provides:
 - A Python reader/writer for `.course` files
 - Script-based experiments for terrain brush behavior
-- Utilities for comparing known-good course samples
 - Iterative pipelines for converting LiDAR (`.laz`) data into game terrain stamps
 
 ## Current Status
@@ -33,15 +32,13 @@ CourseForge/
 |  |- test_process_laz.py         # Main LiDAR -> brush stamping pipeline
 |  |- make_single_stamp.py        # Minimal single-brush semantics test
 |  |- dump_brush_tests.py         # Compare FLAT/RAISE/LOWER sample files
-|  |- inspect_terrainheight.py    # Terrain container inspection/diff helper
-|  `- ...                         # Additional experiments and format probes
+|  `- test_reader.py              # Basic reader sanity check
 |- reference/
-|  |- samples/                    # Known sample .course files used as templates
-|  `- decoded/                    # Decoded JSON references
+|  `- samples/                    # Known sample .course files used as templates
 |- elevation_data/                # Input .laz files
 |- output/                        # Generated courses + debug dumps
 |- config.py                      # Local game paths and constants
-`- docs/                          # Supplemental notes
+`- README.md                      # Project guide and status
 ```
 
 ## How `.course` Handling Works
@@ -157,7 +154,7 @@ These metrics help distinguish:
 Planned/likely next steps:
 - Multi-tile LiDAR merge support
 - Better normalization for preserving micro-relief
-- Controlled calibration suite (single, sparse, dense stamp batteries)
+- Controlled calibration presets (land-first vs full terrain)
 - More robust template selection and compatibility matrix
 - Cleaner CLI entry points (instead of test-script driven workflow)
 
