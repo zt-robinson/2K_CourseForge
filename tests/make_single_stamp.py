@@ -9,7 +9,7 @@ from config import copy_to_game  # noqa: E402
 
 def main():
     repo = Path(__file__).parent.parent
-    template_file = repo / "reference" / "samples" / "3owvjyf3q5fv.course"
+    template_file = repo / "reference" / "samples" / "vr1p6c0wqeyf.course"
 
     course = CourseFile.load(template_file)
 
@@ -23,7 +23,7 @@ def main():
     # ONE stamp in the dead center
     stamp = {
         "tool": 1,  # IMPORTANT: this is the same "raise/lower" tool family you’ve been using
-        "position": {"x": 0.0, "y": "-Infinity", "z": 0.0},
+        "position": {"x": 0.0, "y": 0.0, "z": 0.0},
         "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
         "scale": {"x": 100.0, "y": 1.0, "z": 100.0},
         "type": 54,        # soft circle
@@ -32,13 +32,13 @@ def main():
     }
 
     course.course_data["height"] = [stamp]
-    course.set_name("TEST - SINGLE STAMP")
+    course.set_name("TEST - SINGLE STAMP V2")
 
     out = repo / "output" / "single_stamp.course"
     course.save(out)
-    copy_to_game(out, game_version="2K25", custom_name="single_stamp")
+    copy_to_game(out, game_version="2K25", custom_name="single_stamp_v2")
 
-    print("Wrote single_stamp.course. Load 'TEST - SINGLE STAMP' in 2K25.")
+    print("Wrote single_stamp.course. Load 'TEST - SINGLE STAMP V2' in 2K25.")
 
 
 if __name__ == "__main__":
